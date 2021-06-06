@@ -563,5 +563,4 @@
         "key": "alt+h",
         "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
     }
-    test
 ]
