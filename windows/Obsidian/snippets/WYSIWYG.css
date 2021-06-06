@@ -16,6 +16,9 @@
 
 .side-dock-ribbon { flex: 0; }
 .workspace-ribbon { width: 0; }
+.thema-dark {
+   --lines-identation: #535353;
+}
 
 
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header,
