@@ -45,7 +45,30 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-tag {
   -webkit-font-smoothing: auto;
 }
 
- 
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: 1px solid #535353;
+
+  position: absolute;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+  left: 0;
+  top: -5px;
+  bottom: -4px;
+}
+
+ul ul::before {
+  left: -15px;
+  top: 0;
+  bottom: 0;
+}
 
 /* highlight (==) not visible anymore if not active line */
 div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-highlight {
