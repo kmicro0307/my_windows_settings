@@ -20,20 +20,30 @@
    --lines-identation: #535353;
 }
 
-
+/* アクティブでないラインの装飾を非表示にする*/
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-strong,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-em,
 
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-highlight,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-code,
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url,
-div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link,
 
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-comment,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-link,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-tag {
-    display: none;
+  font-size: 0;
+    /* display: none; */
 }
+
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url {
+  content: ""
+}
+/* div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url::before {
+  content: "test"
+} */
+  /* border-bottom: 2px dashed var(--text-muted); */
+  /* border-bottom: 2px solid var(--text-muted); */
 
 @font-face {
   font-family: boxicons;
