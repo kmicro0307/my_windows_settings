@@ -294,6 +294,9 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
   color: transparent !important;
 }
 
+/* 
+  WYSIWYG 引用のためのコード
+ */
 div:not(.CodeMirror-activeline)>.HyperMD-quote {
    /* background-color:rgb(238, 234, 234); */
    border-left: 5px solid var(--text-selection);
@@ -312,3 +315,47 @@ div:not(.CodeMirror-activeline)>.HyperMD-quote {
     content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=20');
     display: inline !important;
 }
+
+/*  Outlinerのコードを一部改変して使用
+  引用の際にボーダーが連続して表示されるようした 
+*/
+
+/* lists */
+ .cm-s-obsidian .HyperMD-list-line {
+  padding-top: 0.4em;
+}
+
+/* bullets */
+ .cm-s-obsidian span.cm-formatting-list {
+  letter-spacing: 3px;
+}
+
+ .cm-s-obsidian span.cm-formatting-list-ul {
+  color: var(--background-primary) !important;
+}
+
+ .cm-s-obsidian span.cm-formatting-list-ul:before {
+  content: "•";
+  position: absolute;
+  margin-left: -3px;
+  margin-top: -5px;
+  font-size: 24px;
+  color: var(--text-muted);
+  visibility: visible !important;
+}
+
+/* lines */
+ .cm-hmd-list-indent .cm-tab {
+  position: relative;
+}
+
+ .cm-hmd-list-indent .cm-tab::before {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: -9px;
+}
+
+ .cm-s-obsidian .CodeMirror-line {
+  position: relative;
+ }
