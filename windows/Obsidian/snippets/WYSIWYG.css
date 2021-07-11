@@ -24,7 +24,7 @@
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-header,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-strong,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-em,
-
+div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-highlight,
 div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting-code,
 
@@ -280,3 +280,10 @@ ul ul ul {
  {
   content: "ddd";
 } */
+
+/* URL参照の際にブロックを参照のマークを追加する */
+ div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url:not(.cm-formatting):after, 
+.wys-enhanced div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url:not(.cm-formatting):after {
+    content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=20');
+    display: inline !important;
+}
