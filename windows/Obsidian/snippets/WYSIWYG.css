@@ -287,3 +287,28 @@ ul ul ul {
     content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=20');
     display: inline !important;
 }
+
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-formatting.cm-formatting-quote,
+div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
+  display: inline !important;
+  color: transparent !important;
+}
+
+div:not(.CodeMirror-activeline)>.HyperMD-quote {
+   /* background-color:rgb(238, 234, 234); */
+   border-left: 5px solid var(--text-selection);
+   border-color: #333 !important; 
+   border-radius: 0 4px 4px 0;
+
+   font-size: 15px;
+   line-height: 0.5em;
+   margin-left: 5px;
+   padding: 12px 10px 15px 8.5px;
+   display: inline-block;
+}
+
+ div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url:not(.cm-formatting):after, 
+.wys-enhanced div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url:not(.cm-formatting):after {
+    content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=20');
+    display: inline !important;
+}
