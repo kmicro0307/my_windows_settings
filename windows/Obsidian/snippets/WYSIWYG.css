@@ -312,7 +312,7 @@ div:not(.CodeMirror-activeline)>.HyperMD-quote {
 
  div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-string.cm-url:not(.cm-formatting):after, 
 .wys-enhanced div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-string.cm-url:not(.cm-formatting):after {
-    content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%230493ec&height=14');
+    content: url('https://api.iconify.design/majesticons:external-link-line.svg?color=%23808080&height=14');
     /* display: inline !important; */
 }
 
