@@ -9,7 +9,8 @@ $env:LESSCHARSET = "utf-8"
 # grep
 Set-Alias grep rg
 Set-Alias which where.exe
-# ll
+
+# history コマンドの代替
 Remove-Alias history
 function history() {
   if ($args.Length -eq 0){
@@ -33,6 +34,23 @@ function open() {
     Invoke-Expression $command_path" "$HOME
   }
 }
+
+#-----------------------------------------------------
+# Useful commands
+#-----------------------------------------------------
+
+# cd
+function ..() { cd ../ }
+function ...() { cd ../../ }
+function ....() { cd ../../../ }
+function cdg() { gowl list | fzf | cd }
+function cdr() { fd -H -t d -E .git -E node_modules | fzf | cd }
+Set-Alias cdz zi
+function buscdd() { ls -1 C:\\Work\\treng\\Bus\\data | rg .*$Arg1.*_xrf | fzf | % { cd C:\\Work\\treng\\Bus\\data\\$_ } }
+function buscdw() { ls -1 C:\\Work\\treng\\Bus\\work | rg .*$Arg1.*_xrf | fzf | % { cd C:\\Work\\treng\\Bus\\work\\$_ } }
+
+# vim
+function vimr() { fd -H -E .git -E node_modules | fzf | % { vim $_ } }
 
 # Copy current path
 function cpwd() { Convert-Path . | Set-Clipboard }
@@ -69,6 +87,7 @@ function ll() { lsd -l --blocks permission --blocks size --blocks date --blocks 
 # tree
 function tree() { lsd --tree $args}
 # Set-Alias ls lsd
+
 
 # # @ %USERPROFILE%\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 # # Replaced by Unix CoreUtils
@@ -109,3 +128,12 @@ ForEach-Object {
     Invoke-Expression "function global:$cmd { $fn }" 
 }
 
+Import-Module posh-git
+Import-Module oh-my-posh
+
+
+Set-PSReadLineOption -EditMode Emacs
+
+# zsh風のtab補完
+Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
+Set-PoshPrompt -Theme ys
