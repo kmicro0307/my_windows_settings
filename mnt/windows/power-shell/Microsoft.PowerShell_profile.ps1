@@ -137,3 +137,8 @@ Set-PSReadLineOption -EditMode Emacs
 # zsh風のtab補完
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
 Set-PoshPrompt -Theme ys
+
+# Ctrl  矢印キーによる単語移動
+Set-PSReadLineKeyHandler -Chord Ctrl+RightArrow -Function ForwardWord
+Set-PSReadLineKeyHandler -Chord Ctrl+LeftArrow -Function BackwardWord
+
