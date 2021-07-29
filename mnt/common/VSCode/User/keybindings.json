@@ -582,5 +582,17 @@
         "key": "ctrl+enter",
         "command": "-workbench.action.submitComment",
         "when": "commentEditorFocused"
+    },
+    // emacsのバインドを実現するための設定
+    {
+        "key": "ctrl+w",
+        "command": "deleteWordPartLeft",
+        "when": "terminalFocus",
+    },
+    {
+        "key": "ctrl+k",
+        "command": "deleteAllRight",
+        "when": "terminalFocus"
     }
 ]
+
