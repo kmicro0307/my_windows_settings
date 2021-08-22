@@ -562,25 +562,6 @@
     {
         "key": "alt+h",
         "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
-    },
-    {
-        "key": "ctrl",
-        "command": "jupyter.runcurrentcell",
-        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-jupyter.runcurrentcell",
-        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl",
-        "command": "workbench.action.submitComment",
-        "when": "commentEditorFocused"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-workbench.action.submitComment",
-        "when": "commentEditorFocused"
     }
+    test
 ]
