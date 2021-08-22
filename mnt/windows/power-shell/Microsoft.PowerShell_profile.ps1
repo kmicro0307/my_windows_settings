@@ -112,7 +112,7 @@ function tree() { lsd --tree $args}
 #
 @"
   arch, base32, base64, basename, cat, cksum, comm, cp, cut, date, df, dircolors, dirname,
-  echo, env, expand, expr, factor, false, fmt, fold, hashsum, head, hostname, join, link, ln, ls,
+  echo, env, expand, expr, factor, false, fmt, fold, hashsum, head, hostname, join, link, ln,
   md5sum, mkdir, mktemp, more, mv, nl, nproc, od, paste, printenv, printf, ptx, pwd,
   readlink, realpath, relpath, rm, rmdir, seq, sha1sum, sha224sum, sha256sum, sha3-224sum,
   sha3-256sum, sha3-384sum, sha3-512sum, sha384sum, sha3sum, sha512sum, shake128sum,
@@ -130,7 +130,6 @@ ForEach-Object {
 
 Import-Module posh-git
 Import-Module oh-my-posh
-
 
 Set-PSReadLineOption -EditMode Emacs
 
