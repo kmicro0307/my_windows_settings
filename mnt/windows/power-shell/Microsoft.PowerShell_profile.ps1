@@ -6,6 +6,12 @@
 $env:LESSCHARSET = "utf-8"
 # $env:Path = [System.Envirjonment]::GetEnvironmentVariable("Path","User")
 
+# zoxide
+Invoke-Expression (& {
+    $hook = if ($PSVersionTable.PSVersion.Major -lt 6) { 'prompt' } else { 'pwd' }
+    (zoxide init --hook $hook powershell) -join "`n"
+})
+
 # grep
 Set-Alias grep rg
 Set-Alias which where.exe
@@ -44,7 +50,10 @@ function ..() { cd ../ }
 function ...() { cd ../../ }
 function ....() { cd ../../../ }
 function cdg() { gowl list | fzf | cd }
+
 function cdr() { fd -H -t d -E .git -E node_modules | fzf | cd }
+# TODO: PSFZF PSReadlineChordProviderで置き換え
+
 Set-Alias cdz zi
 function buscdd() { ls -1 C:\\Work\\treng\\Bus\\data | rg .*$Arg1.*_xrf | fzf | % { cd C:\\Work\\treng\\Bus\\data\\$_ } }
 function buscdw() { ls -1 C:\\Work\\treng\\Bus\\work | rg .*$Arg1.*_xrf | fzf | % { cd C:\\Work\\treng\\Bus\\work\\$_ } }
@@ -141,3 +150,6 @@ Set-PoshPrompt -Theme ys
 Set-PSReadLineKeyHandler -Chord Ctrl+RightArrow -Function ForwardWord
 Set-PSReadLineKeyHandler -Chord Ctrl+LeftArrow -Function BackwardWord
 
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory 'Ctrl+r'
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
