@@ -17,7 +17,7 @@ Set-Alias grep rg
 Set-Alias which where.exe
 
 # history コマンドの代替
-Remove-Alias history
+# Remove-Alias history
 function history() {
   if ($args.Length -eq 0){
     # cat -n (Get-PSReadlineOption).HistorySavePath
@@ -51,7 +51,7 @@ function ...() { cd ../../ }
 function ....() { cd ../../../ }
 function cdg() { gowl list | fzf | cd }
 
-function cdr() { fd -H -t d -E .git -E node_modules | fzf | cd }
+function cdr() {Invoke-FuzzySetLocation}
 # TODO: PSFZF PSReadlineChordProviderで置き換え
 
 Set-Alias cdz zi
