@@ -248,11 +248,6 @@
         "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "ctrl+Enter",
-        "command": "python.execInTerminal",
-        "when": "editorLangId == 'python'"
-    },
-    {
         "key": "shift+f9",
         "command": "-editor.debug.action.toggleInlineBreakpoint",
         "when": "editorTextFocus"
@@ -277,15 +272,6 @@
         "command": "-workbench.action.debug.start",
         "when": "debuggersAvailable && !inDebugMode"
     },
-    {
-        "key": "ctrl",
-        "command": "workbench.action.toggleMultiCursorModifier"
-    },
-    // {
-    //     "key": "ctrl+j w",
-    //     "command": "workbench.files.action.focusOpenEditorsView",
-    //     // "when": "workbench.explorer.openEditorsView.active"
-    // },
     {
         "key": "ctrl+k e",
         "command": "-workbench.files.action.focusOpenEditorsView",
@@ -565,16 +551,6 @@
     },
     {
         "key": "ctrl",
-        "command": "jupyter.runcurrentcell",
-        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-jupyter.runcurrentcell",
-        "when": "editorTextFocus && jupyter.hascodecells && !editorHasSelection && !jupyter.havenativecells && !notebookEditorFocused"
-    },
-    {
-        "key": "ctrl",
         "command": "workbench.action.submitComment",
         "when": "commentEditorFocused"
     },
@@ -593,6 +569,20 @@
         "key": "ctrl+k",
         "command": "deleteAllRight",
         "when": "terminalFocus"
+    },
+    {
+        "key": "tab",
+        "command": "acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "tab",
+        "command": "-acceptSelectedSuggestion",
+        "when": "suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl",
+        "command": "python.execInTerminal"
     }
 ]
 
