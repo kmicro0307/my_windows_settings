@@ -186,6 +186,12 @@
         "Shift"
       ],
       "key": "W"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Backspace"
     }
   ],
   "leader-hotkeys-obsidian:leader": [

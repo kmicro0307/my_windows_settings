@@ -130,7 +130,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-h
 .cm-s-obsidian .cm-header-1,
 .markdown-preview-view h1 {
   font-size:  24px;
-  font-weight: 450;
+  font-weight: 450: bold;
   color: rgb(123, 108, 214); /* was(115, 98, 205); */
 }
 .markdown-preview-view h1 {
@@ -140,7 +140,7 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line .cm-formatting-highlight.cm-h
   
 .cm-s-obsidian .cm-header-2,
 .markdown-preview-view h2 {
-  font-weight: 450: bold;
+  font-weight: 450;
   font-size:  24px;
   color: rgb(123, 108, 214);
 }
@@ -367,7 +367,6 @@ transform: scale(0.95);
   margin-top: -60px;
   margin-bottom: 60px;
 }
-
 
 .popover.hover-popover .markdown-embed  {
   height: 500px; /* was 300 */

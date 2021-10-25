@@ -27,8 +27,7 @@ nmap <C-0> o<Esc>D
 vmap <C-a> y
 " Yank to system clipboard
 set clipboard=unnamed
-nmap <Space> /
-nmap <S-Space> ?
+
 ""nmap <C-v> p
 "" "" nmap s <C-s>
 nmap <C-Left> b
