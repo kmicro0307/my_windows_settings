@@ -154,6 +154,7 @@ Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
 
+# 分割した再，そのペインのプロファイルを分割後のペインに設定する
 function prompt {
     $p = $($executionContext.SessionState.Path.CurrentLocation)
     $converted_path = Convert-Path $p

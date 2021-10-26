@@ -50,7 +50,8 @@
     {
       "command": {
         "action": "splitPane",
-        "split": "horizontal"
+        "split": "horizontal",
+        "splitMode": "duplicate"
       },
       "keys": "ctrl+shift+\\"
     },
