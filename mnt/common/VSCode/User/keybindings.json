@@ -451,7 +451,7 @@
         "command": "-workbench.action.moveEditorRightInGroup"
     },
     {
-        "key": "ctrl+shift+enter",
+        "key": "alt+d",
         "command": "workbench.action.debug.start"
     },
     {
