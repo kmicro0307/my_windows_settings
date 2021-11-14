@@ -148,5 +148,16 @@
   "editor.formatOnSave": true,
   "[markdown]": {
     "editor.formatOnSave": false
-  }
+  },
+  "codetogether.userName": "test",
+  "code-runner.executorMap": {
+    "javascript": "node",
+    // "typescript": "ts-node"
+    "typescript": "node --loader ts-node/esm"
+  },
+  // 拡張子に対応するファイルタイプ
+  "files.associations": {
+    "*.tsx": "typescript"
+  },
+  "output.smartScroll.enabled": false
 }
