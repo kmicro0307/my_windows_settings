@@ -10,10 +10,28 @@
     },
     {
       "command": {
+        "action": "splitPane",
+        "split": "horizontal",
+        "splitMode": "duplicate"
+      },
+      "keys": "ctrl+shift+\\"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": {
         "action": "moveFocus",
         "direction": "up"
       },
       "keys": "alt+up"
+    },
+    {
+      "command": {
+        "action": "newTab"
+      },
+      "keys": "ctrl+t"
     },
     {
       "command": "find",
@@ -26,14 +44,6 @@
         "splitMode": "duplicate"
       },
       "keys": "ctrl+\\"
-    },
-    {
-      "command": {
-        "action": "splitPane",
-        "split": "auto",
-        "splitMode": "duplicate"
-      },
-      "keys": "ctrl+alt+d"
     },
     {
       "command": {
@@ -50,16 +60,10 @@
     {
       "command": {
         "action": "splitPane",
-        "split": "horizontal",
+        "split": "auto",
         "splitMode": "duplicate"
       },
-      "keys": "ctrl+shift+\\"
-    },
-    {
-      "command": {
-        "action": "newTab"
-      },
-      "keys": "ctrl+t"
+      "keys": "ctrl+alt+d"
     },
     {
       "command": {
@@ -74,15 +78,15 @@
       "keys": "ctrl+shift+tab"
     },
     {
-      "command": "closePane",
-      "keys": "alt+x"
-    },
-    {
       "command": {
         "action": "moveFocus",
         "direction": "down"
       },
       "keys": "alt+down"
+    },
+    {
+      "command": "closePane",
+      "keys": "alt+x"
     },
     {
       "command": {
@@ -111,17 +115,17 @@
         "direction": "right"
       },
       "keys": "ctrl+l"
-    },
-    {
-      "command": "paste",
-      "keys": "ctrl+v"
     }
   ],
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
   "profiles": {
-    "defaults": {},
+    "defaults": {
+      "font": {
+        "face": "Consolas"
+      }
+    },
     "list": [
       {
         "commandline": "powershell.exe",

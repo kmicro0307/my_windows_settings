@@ -144,7 +144,6 @@ Set-PSReadLineOption -EditMode Emacs
 
 # zsh風のtab補完
 Set-PSReadLineKeyHandler -Key Tab -Function MenuComplete
-Set-PoshPrompt -Theme ys
 
 # Ctrl  矢印キーによる単語移動
 Set-PSReadLineKeyHandler -Chord Ctrl+RightArrow -Function ForwardWord
@@ -153,12 +152,14 @@ Set-PSReadLineKeyHandler -Chord Ctrl+LeftArrow -Function BackwardWord
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+g' -PSReadlineChordReverseHistory 'Ctrl+r'
 Set-PSReadLineOption -PredictionSource History
 Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PoshPrompt -Theme ys
+
 
 # 分割した際，そのペインのプロファイルを分割後のペインに設定する
-function prompt {
-    $p = $($executionContext.SessionState.Path.CurrentLocation)
-    $converted_path = Convert-Path $p
-    $ansi_escape = [char]27
-    "PS $p$('>' * ($nestedPromptLevel + 1)) ";
-    Write-Host "$ansi_escape]9;9;$converted_path$ansi_escape\"
-}
+# function prompt {
+#     $p = $($executionContext.SessionState.Path.CurrentLocation)
+#     $converted_path = Convert-Path $p
+#     $ansi_escape = [char]27
+#     "PS $p$('>' * ($nestedPromptLevel + 1)) ";
+#     Write-Host "$ansi_escape]9;9;$converted_path$ansi_escape\"
+# }
