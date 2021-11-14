@@ -37,6 +37,10 @@
        "key": "ctrl+shift+h",
        "command": "workbench.action.toggleSidebarVisibility",
     },
+    {
+        "key": "ctrl+shift+s",
+       "command": "workbench.action.toggleSidebarVisibility",
+    },
     // サイドバーフォーカストグル(サイドバーは表示したまま，フォーカスを切り替え)
     // ,
     // {
@@ -118,13 +122,8 @@
     //     "command": "workbench.files.action.focusFilesExplorer"
     // },
     //ターミナルのトグル
-    { "key": "ctrl+shift+n",
-      "command": "workbench.action.terminal.toggleTerminal",
-    },
-    { "key": "ctrl+shift+u",
-      "command": "workbench.action.terminal.toggleTerminal",
-    },
-    { "key": "ctrl+j u",
+    {
+        "key": "ctrl+j u",
       "command": "workbench.action.terminal.toggleTerminal",
       "when": "terminalFocus"
     },
