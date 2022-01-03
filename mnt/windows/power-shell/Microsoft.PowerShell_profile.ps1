@@ -50,9 +50,9 @@ function ..() { cd ../ }
 function ...() { cd ../../ }
 function ....() { cd ../../../ }
 function cdg() { gowl list | fzf | cd }
-
 function cdr() {Invoke-FuzzySetLocation}
 # TODO: PSFZF PSReadlineChordProviderで置き換え
+function cde() {Set-LocationFuzzyEverything}
 
 Set-Alias cdz zi
 function buscdd() { ls -1 C:\\Work\\treng\\Bus\\data | rg .*$Arg1.*_xrf | fzf | % { cd C:\\Work\\treng\\Bus\\data\\$_ } }
