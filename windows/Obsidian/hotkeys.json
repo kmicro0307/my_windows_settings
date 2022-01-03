@@ -473,5 +473,43 @@
   "editor:insert-embed": [],
   "obsidian-excalidraw-plugin:insert-link": [],
   "note-refactor-obsidian:app:extract-selection-autogenerate-name": [],
-  "obsidian-excalidraw-plugin:toggle-lock": []
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "obsidian-another-quick-switcher:backlink-search": [],
+  "obsidian-another-quick-switcher:normal-search": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-another-quick-switcher:recent-search": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "obsidian-another-quick-switcher:move": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ]
 }
