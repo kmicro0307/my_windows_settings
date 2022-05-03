@@ -39,3 +39,22 @@ nmap ^ T-
 
 exmap jumpanywhere obcommand mrj-jump-to-link:activate-jump-to-anywhere
 nmap s :jumpanywhere
+
+exmap splitvertical obcommand workspace:split-vertical
+nmap <C-w>s :splitvertical
+
+exmap splithorizontal obcommand workspace:split-horizontal
+nmap <C-w>v :splithorizontal
+
+exmap addlinkfromquickswitcher obcommand mrj-crosslink-between-notes:add-link-from-quick-switcher
+nmap <C-w>j :addlinkfromquickswitcher
+
+exmap addlinktocurrent obcommand mrj-crosslink-between-notes:add-link-to-current
+nmap <C-w>J :addlinktocurrent
+
+exmap  templaterfortemplate obcommand obsidian-hotkeys-for-templates:templater:TemplateForTemplater.md
+
+nmap <C-w>i :templaterfortemplate
+
+" Leader Hotkeyのためにキーを解放
+iunmap <C-w>
