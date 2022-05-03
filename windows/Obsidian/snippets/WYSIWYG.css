@@ -299,7 +299,6 @@ div:not(.CodeMirror-activeline)>.CodeMirror-line span.cm-hmd-indent-in-quote {
 
 .popover.hover-popover {
   position: fixed;
-transform: scale(0.95);
   max-height: 500px;
   min-height: 50px;
   width: 600px;
