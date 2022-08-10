@@ -458,13 +458,6 @@
   "obsidian-another-quick-switcher:normal-search": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    },
-    {
-      "modifiers": [
         "Alt",
         "Mod",
         "Shift"
