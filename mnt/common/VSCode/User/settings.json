@@ -133,7 +133,8 @@
   "editor.scrollPredominantAxis": false,
   "editor.minimap.enabled": false,
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter-notebook"
+    "*.ipynb": "jupyter-notebook",
+    "*.md": "default"
   },
   "files.exclude": {
     "**/.classpath": true,
@@ -149,6 +150,9 @@
   "[markdown]": {
     "editor.formatOnSave": false
   },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
   "codetogether.userName": "test",
   "code-runner.executorMap": {
     "javascript": "node",
@@ -159,5 +163,11 @@
   "files.associations": {
     "*.tsx": "typescript"
   },
-  "output.smartScroll.enabled": false
+  "output.smartScroll.enabled": false,
+  "jupyter.experimental.debugging": true,
+  "notebook.consolidatedRunButton": true,
+  "[ahk]": {
+    "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
+  },
+  "editor.unicodeHighlight.nonBasicASCII": false
 }
