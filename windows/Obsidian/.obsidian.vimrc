@@ -37,6 +37,9 @@ nmap ^ T-
 " nmap <End> $j
 "行の削除
 
+exmap back obcommand app:go-back
+nmap <C-o> :back
+
 exmap jumpanywhere obcommand mrj-jump-to-link:activate-jump-to-anywhere
 nmap s :jumpanywhere
 
