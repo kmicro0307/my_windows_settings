@@ -169,5 +169,6 @@
   "[ahk]": {
     "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
   },
-  "editor.unicodeHighlight.nonBasicASCII": false
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "window.zoomLevel": -1
 }
