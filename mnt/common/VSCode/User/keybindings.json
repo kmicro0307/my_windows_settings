@@ -580,12 +580,8 @@
         "when": "suggestWidgetVisible && textInputFocus"
     },
     {
-        "key": "ctrl",
-        "command": "python.execInTerminal"
-    },
-    {
         "key": "alt+r",
-        "command": "code-runner.run"
+        "command": "python.execInTerminal"
     },
     {
         "key": "ctrl+alt+n",
