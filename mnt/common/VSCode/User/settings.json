@@ -1,9 +1,10 @@
 {
   // "python.pythonPath": "/usr/bin/python3",
-  "python.pythonPath": "/usr/bin/python3",
+  // "python.pythonPath": "/usr/bin/python3",
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "python.linting.pycodestyleEnabled": true,
+  "terminal.integrated.env.windows": { "PYTHONPATH": "${workspaceFolder}/." },
   // "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
   // "terminal.integrated.shell.windows": "C:\\Users\\yoshi\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
   "files.autoGuessEncoding": true,
@@ -134,7 +135,8 @@
   "editor.minimap.enabled": false,
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
-    "*.md": "default"
+    "*.md": "default",
+    "{git,gitlens}:/**/*.{md,csv}": "default"
   },
   "files.exclude": {
     "**/.classpath": true,
@@ -144,7 +146,7 @@
   },
   "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"c:\\Users\\yoshi\\.vscode\\extensions\\gabrielbb.vscode-lombok-1.0.1\\server\\lombok.jar\"",
   "editor.acceptSuggestionOnEnter": "off",
-  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.defaultInterpreterPath": "C:\\Users\\yoshi\\scoop\\apps\\pyenv\\current\\pyenv-win\\shims\\python",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "[markdown]": {
@@ -161,7 +163,7 @@
   },
   // 拡張子に対応するファイルタイプ
   "files.associations": {
-    "*.tsx": "typescript"
+    "*.tsx": "typescriptreact"
   },
   "output.smartScroll.enabled": false,
   "jupyter.experimental.debugging": true,
@@ -169,6 +171,15 @@
   "[ahk]": {
     "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
   },
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "pythonautovenv.pythonPath": "${workspaceFolder}/test_pdf_tomp3/bin/python.exe",
+  "editor.inlineSuggest.enabled": true,
+  "[javascriptreact]": {},
   "editor.unicodeHighlight.nonBasicASCII": false,
   "haskell.ghcupExecutablePath": "/home/yoshi/.ghcup/bin/ghcup",
   "haskell.manageHLS": "GHCup",
