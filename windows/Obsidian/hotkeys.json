@@ -1,9 +1,7 @@
 {
   "editor:fold-all": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "/"
     }
   ],
@@ -11,18 +9,14 @@
   "workspace:split-vertical": [],
   "editor:focus-left": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "H"
     }
   ],
   "editor:open-search-replace": [],
   "editor:focus-right": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "L"
     }
   ],
@@ -31,108 +25,75 @@
   "daily-notes": [],
   "app:toggle-left-sidebar": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "H"
     }
   ],
   "editor:toggle-highlight": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "A"
     },
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "9"
     }
   ],
   "editor:open-link-in-new-leaf": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "Enter"
     },
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "J"
     }
   ],
   "editor:follow-link": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "J"
     }
   ],
   "app:go-back": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "H"
     }
   ],
   "app:go-forward": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "ArrowRight"
     },
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "L"
     }
   ],
   "app:toggle-right-sidebar": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "L"
     }
   ],
   "calendar:open-weekly-note": [],
   "note-refactor-obsidian:app:extract-selection-first-line": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "K"
     }
   ],
   "mrj-jump-to-link:activate-jump-to-link": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "S"
     }
   ],
   "obsidian-day-planner:app:link-day-planner-to-note": [],
   "switcher:open": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "E"
     }
   ],
@@ -140,27 +101,20 @@
   "editor:open-search": [],
   "global-search:open": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "G"
     }
   ],
   "hotkeysplus-obsidian:toggle-block-quote": [],
   "hotkeysplus-obsidian:better-toggle-todo": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "M"
     }
   ],
   "hotkeysplus-obsidian:toggle-bullet-number": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "M"
     }
   ],
@@ -174,50 +128,36 @@
   "table-editor-obsidian:center-align-column": [],
   "workspace:close": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "W"
     },
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "Backspace"
     }
   ],
   "leader-hotkeys-obsidian:leader": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "W"
     }
   ],
   "darlal-switcher-plus:switcher-plus:open-editors": [],
   "darlal-switcher-plus:switcher-plus:open-symbols": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "O"
     }
   ],
   "editor:focus-top": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "P"
     }
   ],
   "editor:focus-bottom": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "N"
     }
   ],
@@ -225,45 +165,32 @@
   "workspace:split-horizontal": [],
   "command-palette:open": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "P"
     }
   ],
   "graph:open": [],
   "footlinks:footlinks-current-shortcut": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "R"
     }
   ],
   "obsidian-mind-map:app:markmap-preview": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "P"
     }
   ],
   "wikilinks-to-mdlinks-obsidian:toggle-wiki-md-links": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "-"
     }
   ],
   "editor:insert-link": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "K"
     }
   ],
@@ -272,17 +199,13 @@
   "sliding-panes-obsidian:toggle-sliding-panes-rotated-headers": [],
   "sliding-panes-obsidian:toggle-sliding-panes": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "ArrowRight"
     }
   ],
   "sliding-panes-obsidian:toggle-sliding-panes-stacking": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "ArrowLeft"
     }
   ],
@@ -293,42 +216,29 @@
   "shortcuts-extender:shortcut-greater-than": [],
   "editor:toggle-fold": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "["
     }
   ],
   "editor:toggle-bold": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "8"
     }
   ],
   "workspaces:load": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "7"
     }
   ],
   "obsidian-hotkeys-for-specific-files:Workbench/Workbench": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "2"
     },
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "3"
     }
   ],
@@ -336,26 +246,19 @@
   "editor:toggle-comments": [],
   "text-snippets-obsidian:text-snippets": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "="
     }
   ],
   "daily-notes:goto-prev": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "P"
     }
   ],
   "pane-relief:go-1st": [
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "1"
     }
   ],
@@ -364,40 +267,27 @@
   "pane-relief:go-4th": [],
   "pane-relief:swap-next": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "."
     }
   ],
   "pane-relief:swap-prev": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": ","
     }
   ],
   "daily-notes:goto-next": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "L"
     },
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "3"
     },
     {
-      "modifiers": [
-        "Alt"
-      ],
+      "modifiers": ["Alt"],
       "key": "N"
     }
   ],
@@ -408,10 +298,7 @@
   "file-explorer:move-file": [],
   "file-explorer:new-file-in-new-pane": [
     {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Ctrl", "Shift"],
       "key": "T"
     }
   ],
@@ -422,28 +309,19 @@
   "templater-obsidian:create-new-note-from-template": [],
   "periodic-notes:next-weekly-note": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "N"
     }
   ],
   "periodic-notes:prev-weekly-note": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "P"
     }
   ],
   "periodic-notes:open-weekly-note": [
     {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Shift"],
       "key": "0"
     }
   ],
@@ -457,42 +335,36 @@
   "obsidian-another-quick-switcher:backlink-search": [],
   "obsidian-another-quick-switcher:normal-search": [
     {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Ctrl", "Shift"],
       "key": "F"
     }
   ],
   "obsidian-another-quick-switcher:recent-search": [
     {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Ctrl", "Shift"],
       "key": "E"
     }
   ],
   "obsidian-another-quick-switcher:move": [
     {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
+      "modifiers": ["Alt", "Ctrl", "Shift"],
       "key": "M"
     }
   ],
   "periodic-notes:open-daily-note": [
     {
-      "modifiers": [
-        "Mod"
-      ],
+      "modifiers": ["Ctrl"],
       "key": "Q"
     }
   ],
   "templater-obsidian:_TemplateFolder/DailyTemplate.md": [],
-  "table-editor-obsidian:table-control-bar": []
+  "table-editor-obsidian:table-control-bar": [],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-7": [],
+  "workspace:goto-tab-8": []
 }
