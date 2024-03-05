@@ -170,5 +170,11 @@
     "editor.defaultFormatter": "mark-wiemer.vscode-autohotkey-plus-plus"
   },
   "editor.unicodeHighlight.nonBasicASCII": false,
-  "window.zoomLevel": -1
+  "haskell.ghcupExecutablePath": "/home/yoshi/.ghcup/bin/ghcup",
+  "haskell.manageHLS": "GHCup",
+  "[haskell]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "haskell.haskell"
+  },
+  "haskell.formattingProvider": "fourmolu"
 }
